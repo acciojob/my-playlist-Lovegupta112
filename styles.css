@@ -1,1 +1,49 @@
 /*  your css code here. If applicable */
+*{
+
+}
+body{
+	font-family:sans-serif;	
+	background-color:#cccccc;
+}
+h1,h3{
+	text-align:center;
+}
+.player_one{
+	border:2px solid black;
+	border-radius:5px;
+	padding:1rem;
+	display:flex;
+	flex-direction:column; 
+	background:white;
+}
+.player_one>a{
+	text-decoration:none;
+	color:brown;
+}
+
+.player_two{
+	width:fit-content;
+	margin:auto;
+	background-color:white;
+	display:flex;
+	flex-direction:column;
+/* 	justify-content:center; */
+/* 	align-content:center; */
+/* 	align-items:center; */
+	padding:1rem;
+	border-radius:10px;
+}
+.player_two  h2{
+	text-align:center;
+}
+.player_two  audio{
+	width:100%;
+}
+
+
+
+
+
+
+
